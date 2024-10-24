@@ -1,0 +1,81 @@
+<!-- example on CSS Tables -->
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+	#students{
+	  font-family: Tahoma, sans-serif;
+	  border-collapse: collapse;
+	  width: 100%;
+	}
+
+	#students td, #students th {
+	  border: 1px solid #ddd;
+	  padding: 8px;
+	}
+
+	#students tr:nth-child(even){
+       background-color: #aaaaaa;
+    }
+
+	#students tr:hover {
+       background-color: #cc33ff;
+    }
+   
+   #students th {
+	  padding-top: 12px;
+	  padding-bottom: 12px;
+	  text-align: left;
+	  background-color: #4CAF50;
+	  color: white;
+	}
+
+    #stud{
+       
+        text-align: center;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+         width: 100%;
+        }
+
+        .c{
+            border: 1px solid;
+        }
+        th{
+            background-color: green;
+            text-align: left;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            border-width: 10px;
+        }
+
+
+        #stud tr:hover{
+            background-color: #cc33ff;
+        }
+  </style>
+ </head>
+ <body>
+    <table id="students" class=".c">        
+       <tr> <th>SLNO</th> <th>NAME</th> <th>PHONE</th> </tr>
+       <tr> <td>1</td> <td>Ram</td> <td>9885098850</td> </tr>
+       <tr> <td>2</td> <td>Sam</td> <td>9889889880</td> </tr>
+       <tr> <td>3</td> <td>Rahim</td> <td>9876598765</td> </tr>
+       <tr> <td>4</td> <td>Siva</td> <td>0000000000</td> </tr>
+    </table> 
+
+    <hr>
+    <table id="stud">
+        <tr><th>sno</th> <th>sname</th> <th>Address</th> <th>PHONE</th></tr>
+        <tr><td>101</td> <td>Aachal</td> <td>Delhi</td> <td>9999999999</td></tr>
+        <tr><td>101</td> <td>Aachal</td> <td>Delhi</td> <td>9999999999</td></tr>
+        <tr><td>101</td> <td>Aachal</td> <td>Delhi</td> <td>9999999999</td></tr>
+        <tr><td>101</td> <td>Aachal</td> <td>Delhi</td> <td>9999999999</td></tr>
+    </table>
+ </body>
+</html>
+
+
